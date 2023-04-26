@@ -13,7 +13,7 @@ and closed-loop stability for MPC problems are explicitly derived.
 3. The fuzzy logic system is designed accompanied by an adaptive updated law for the Lyapunov-based MPC, which can approximate the unknown external disturbances and uncertain parameters to enhance predictive quality.
 
 ## Results
-![figures](image/table1.png)
+![figures](figure1.png)
 
 ## Citation
 If you find this reference implementation useful in your research, please consider citing:
