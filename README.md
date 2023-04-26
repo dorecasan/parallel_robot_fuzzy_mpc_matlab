@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-This resource includes all necessary MATLAb file for the simulation of a car simulator under the control of Adaptive Lyapunov-based Model Predictive Control controller, Adaptive Backstepping controller, and Lyapunov-based Model Predictive Control controller, which is presented in our paper ["Adaptive fuzzy Lyapunov-based model predictive control for parallel platform driving simulators"](https://doi.org/10.1177/01423312221122470)
+This resource includes all necessary MATLAB files for the simulation of a car simulator under the control of Adaptive Lyapunov-based Model Predictive Control controller, Adaptive Backstepping controller, and Lyapunov-based Model Predictive Control controller, which is presented in our paper ["Adaptive fuzzy Lyapunov-based model predictive control for parallel platform driving simulators"](https://doi.org/10.1177/01423312221122470)
 
 ## Contributions
 1. The proposed method is able to cope with the problem of controller design for the CDS considering the input and system constraints which are typically neglected
@@ -13,6 +13,14 @@ and closed-loop stability for MPC problems are explicitly derived.
 3. The fuzzy logic system is designed accompanied by an adaptive updated law for the Lyapunov-based MPC, which can approximate the unknown external disturbances and uncertain parameters to enhance predictive quality.
 
 ## Results
-
+![figures](image/table1.png)
 
 ## Citation
+If you find this reference implementation useful in your research, please consider citing:
+```
+@article{manh2021adaptive,
+  title={Adaptive Fuzzy Lyapunov-based Model Predictive Control for Parallel Platform Driving Simulators},
+  author={Manh, Cuong Nguyen and Nguyen, Nhu Toan and Duy, Nam Bui and Lam, Tung},
+  year={2021}
+}
+```
